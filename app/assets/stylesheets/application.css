@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Overpass');
 @import "bootstrap";
 
 .clear {
@@ -36,3 +37,34 @@
  * It is generally better to create a new file per style scope.
  *
  */
+.slogan {
+  font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+  font-style: italic;
+  padding-top: 26px;
+}
+
+.links{
+  padding-top: 26px;
+}
+
+.links a {
+  color: black;
+  font-size: 25px;
+  border-bottom: 1px solid #dfdfdf;
+}
+
+header {
+  border-top: 9px solid #222222;
+}
+
+hr {
+  clear:both;
+}
+
+h1 {
+  font-family: 'Overpass', sans-serif;
+}
+
+h2 {
+  font-family: 'Overpass', sans-serif;
+}
